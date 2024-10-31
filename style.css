@@ -73,3 +73,12 @@ p {
   color: #000000;
   font-weight: 200;
 }
+
+.avatar {
+  width: 120px; /* Adjust as needed */
+  height: 120px;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures the image is contained within the circle */
+  margin-bottom: 10px;
+  display: block;
+}
