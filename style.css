@@ -67,7 +67,7 @@ body {
 /* Content Area */
 .content {
   margin-left: 400px;
-  padding: 20px 20px 20px 20px; /* Add more padding on the left */
+  padding: 15px 15px 15px 20px; /* Add more padding on the left */
   background-color: #fdf8ef
   max-width: 800px;
 }
