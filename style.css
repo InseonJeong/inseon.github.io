@@ -3,12 +3,13 @@ body {
   font-family: 'Libre Baskerville', serif;
   display: flex;
   margin: 0;
-  background-color: #fdebd0;
+  background-color: #fdebd0; /* Background color */
 }
 
+/* Sidebar Styles */
 .sidebar {
   width: 250px;
-  background-color: #fcfbe6;
+  background-color: #fcfbe6; /* Sidebar background color */
   padding: 20px;
   position: fixed;
   height: 100vh;
@@ -17,20 +18,25 @@ body {
   align-items: center;
 }
 
-.sidebar img.avatar {
-  width: 120px;
+/* Avatar Image Styles */
+.avatar {
+  width: 120px; /* Adjust as needed */
   height: 120px;
-  border-radius: 50%;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures the image is contained within the circle */
   margin-bottom: 10px;
+  display: block;
 }
 
+/* Name Styles */
 .name {
-  color: #90bfc5;
+  color: #90bfc5; /* Name color */
   font-weight: 300;
   font-size: 1.5em;
   text-align: center;
 }
 
+/* Sidebar Navigation Links */
 .sidebar-nav {
   display: flex;
   flex-direction: column;
@@ -40,7 +46,7 @@ body {
 
 .sidebar-link {
   text-decoration: none;
-  color: #fdebd0;
+  color: #fdebd0; /* Sidebar link color */
   font-weight: 400;
   margin: 10px 0;
 }
@@ -50,35 +56,30 @@ body {
   color: #097969;
 }
 
+/* Content Area */
 .content {
   margin-left: 270px;
   padding: 20px;
   max-width: 800px;
 }
 
+/* Section Titles */
 h2 {
   color: #097969;
-  font-size: 3em;
+  font-size: 3em; /* 3x body text size */
   font-weight: 400;
 }
 
+/* Subsection Titles */
 h3 {
   color: #d6d0c6;
-  font-size: 2em;
+  font-size: 2em; /* 2x body text size */
   font-weight: 400;
 }
 
+/* Body Text */
 p {
-  font-size: 1em; /* Adjust this for readability */
+  font-size: 1em; /* Base font size */
   color: #000000;
   font-weight: 200;
-}
-
-.avatar {
-  width: 120px; /* Adjust as needed */
-  height: 120px;
-  border-radius: 50%; /* Makes it circular */
-  object-fit: cover; /* Ensures the image is contained within the circle */
-  margin-bottom: 10px;
-  display: block;
 }
