@@ -31,6 +31,7 @@ body {
   height: 100%; /* Maintains height within the container */
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover; /* Ensures the image fills the circular frame */
+  object-position: top; 
   display: block;
 }
 
